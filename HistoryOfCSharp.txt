@@ -1,0 +1,139 @@
+C# Version 1.0
+---------------------------------------------------------------------------------------------------
+Visual Studio .NET 2002,  .NET Framework version 1.0
+
+C# version 1.0 was a viable alternative to Java on the Windows platform.
+The major features of C# 1.0 included:
+--> Classes, Structs, Interfaces, Events, Properties, Delegates, Expressions, Statements, Attributes
+
+C# version 1.2
+---------------------------------------------------------------------------------------------------
+Visual Studio 2003,  .NET Framework version 1.1
+
+Most notable change is that the code generated in a foreach loop called Dispose on an IEnumerator
+when that IEnumerator implemented IDisposable.
+
+C# Version 2.0
+---------------------------------------------------------------------------------------------------
+Visual Studio 2005,  .NET Framework version 2.0
+
+Major features:
+Generics, Partial types, Anonymous methods, Nullable types, Iterators, Covariance and contravariance
+
+Added capabilities to existing features:
+Getter/setter separate accessibility
+Method group conversions (delegates)
+Static classes
+Delegate inference
+
+With generics, types and methods can operate on an arbitrary type while still retaining type safety. 
+For instance, having a List<T> lets you have List<string> or List<int> and perform type-safe operations 
+on those strings or integers while you iterate through them.
+
+C# Version 3.0
+---------------------------------------------------------------------------------------------------
+Visual Studio 2008,  .NET Framework version 3.0/3.5
+
+Major features:
+Auto-implemented properties, Anonymous types, Query expressions, Lambda expressions, Expression trees,
+Extension methods, Implicitly typed local variables, Partial methods, Object and collection initializers
+
+C# Version 4.0
+---------------------------------------------------------------------------------------------------
+Visual Studio 2010,  .NET Framework version 4.0
+
+New features:
+Dynamic binding
+Named/optional arguments
+Generic covariant and contravariant
+Embedded interop types
+
+C# Version 5.0
+---------------------------------------------------------------------------------------------------
+Visual Studio 2012/2013,  .NET Framework version 4.5
+
+New features:
+Asynchronous members (async and await)
+Caller info attributes
+
+C# Version 6.0
+---------------------------------------------------------------------------------------------------
+Visual Studio 2013/2015,  .NET Framework version 4.6
+
+Major features:
+Static imports, Exception filters, Auto-property initializers, Expression bodied members, Null propagator, 
+String interpolation, nameof operator, Index initializers
+
+Other new features:
+Await in catch/finally blocks, Default values for getter-only properties
+
+Released Roslyn the compiler as a service. The C# compiler is now written in C#.
+
+C# Version 7.0
+---------------------------------------------------------------------------------------------------
+Visual Studio 2017, .NET Framework version 4.6.2 and .NET Core 1.0 SDK
+
+Major features:
+Out variables, Tuples and deconstruction, Pattern matching, Local functions, 
+Expanded expression bodied members, Ref locals and returns
+
+Other features:
+Discards, Binary Literals and Digit Separators, Throw expressions
+
+C# Version 7.1
+---------------------------------------------------------------------------------------------------
+Visual Studio 2017 version 15.3, .NET Framework 4.7 and .NET Core 2.0 SDK
+
+New features:
+async Main method
+default literal expressions
+Inferred tuple element names
+Pattern matching on generic type parameters
+
+C# Version 7.2
+---------------------------------------------------------------------------------------------------
+Visual Studio 2017 version 15.5, .NET Framework 4.7.1 and .NET Core 2.0 SDK
+
+New features:
+Techniques for writing safe efficient code
+Non-trailing named arguments
+Leading underscores in numeric literals
+private protected access modifier
+Conditional ref expressions
+
+C# Version 7.3
+---------------------------------------------------------------------------------------------------
+Visual Studio 2017 version 15.7, .NET Framework 4.7.2 and .NET Core 2.1 SDK
+
+New features:
+access fixed fields without pinning.
+reassign ref local variables.
+use initializers on stackalloc arrays.
+use fixed statements with any type that supports a pattern.
+use additional generic constraints.
+
+The following enhancements were made to existing features:
+test == and != with tuple types.
+use expression variables in more locations.
+attach attributes to the backing field of auto-implemented properties.
+Method resolution when arguments differ by in has been improved.
+Overload resolution now has fewer ambiguous cases.
+
+C# Version 8.0
+---------------------------------------------------------------------------------------------------
+Visual Studio 2019 version 15.7 and .NET Core 3.0 SDK
+
+New features:
+Readonly members
+Default interface members
+Pattern matching enhancements:
+	Switch expressions
+	Property patterns
+	Tuple patterns
+	Positional patterns
+Using declarations
+Static local functions
+Disposable ref structs
+Nullable reference types
+Asynchronous streams
+Indices and ranges
